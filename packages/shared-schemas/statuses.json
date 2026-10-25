@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TokenQualificationStatus",
+  "description": "Canonical final token statuses used by qualification engine, API, bot and Mini App",
+  "type": "string",
+  "enum": [
+    "REJECTED_CRITICAL_RISK",
+    "PENDING_DATA_INCOMPLETE",
+    "MONITOR_NOT_YET_QUALIFIED",
+    "SECURITY_QUALIFIED_NO_TRADE_SIGNAL",
+    "QUALIFIED_TRADE_CANDIDATE",
+    "QUALIFICATION_REVOKED"
+  ]
+}

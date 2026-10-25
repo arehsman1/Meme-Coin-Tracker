@@ -1,0 +1,17 @@
+[package]
+name = "meme_chains"
+version.workspace = true
+edition.workspace = true
+description = "Chain data providers: DexScreener + JSON-RPC helpers"
+
+[dependencies]
+meme_common = { path = "../common" }
+anyhow = { workspace = true }
+chrono = { workspace = true }
+reqwest = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+url = { workspace = true }

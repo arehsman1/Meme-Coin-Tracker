@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CheckResult",
+  "type": "string",
+  "enum": ["PASS", "FAIL", "UNKNOWN", "NOT_APPLICABLE"]
+}

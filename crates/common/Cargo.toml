@@ -1,0 +1,11 @@
+[package]
+name = "meme_common"
+version.workspace = true
+edition.workspace = true
+description = "Shared types for Meme Coin Tracker Rust crates"
+
+[dependencies]
+chrono = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }

@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ScoreSet",
+  "type": "object",
+  "required": [
+    "security_risk_score",
+    "manipulation_risk_score",
+    "trade_quality_score",
+    "data_confidence_score"
+  ],
+  "properties": {
+    "security_risk_score": { "type": "number", "minimum": 0, "maximum": 100 },
+    "manipulation_risk_score": { "type": "number", "minimum": 0, "maximum": 100 },
+    "trade_quality_score": { "type": "number", "minimum": 0, "maximum": 100 },
+    "data_confidence_score": { "type": "number", "minimum": 0, "maximum": 100 }
+  }
+}
